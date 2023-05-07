@@ -1,0 +1,75 @@
+body
+{
+	background-color: #589ED9;
+	font-family: 'open sans', sans-serif;
+}
+#container
+{
+	width: 300px;
+	margin: 75px auto;
+	text-align: center;
+	color: #fff;
+}
+#header .logo .fa-weibo
+{
+	font-size: 65px;
+	padding: 0;
+	margin: o auto;
+}
+#header h1
+{
+	font-size: 32px;
+	color: white;
+	margin-top: 10px;
+}
+.loginform .containerfields
+{
+	background-color: white;
+	border-radius: 10px;
+}
+.loginform .containerfields input
+{
+	font-family: 'open sans', sans-serif;
+	font-size: 18px;
+	width: 100%;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	text-indent: 20px;
+	border-radius: 10px;
+}
+.loginform .containerfields input[type="password"]
+{
+	border-top: 1px solid #ccc;
+	border-radius: 0px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.loginform input[type='submit']
+{
+	font-family: 'open sans', sans-serif;
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: #2186d4;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 10px;
+	padding: 14px 0px;
+	border-radius: 6px;
+}
+.loginform input[type='submit']:hover
+{
+	background: #086484;
+	cursor: pointer;
+}
+#footer p a 
+{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
